@@ -39,9 +39,10 @@ new Chart(ctx, {
         datasets: [{
             label: 'BitCoin',
             data: prices,
-            borderColor: '#FF0000',
+            borderColor: '#c69843',
             tension: 0,
-            pointRadius: 0.5
+            pointRadius: 0.5,
+            fill: true
         }]
     },
     options: {
